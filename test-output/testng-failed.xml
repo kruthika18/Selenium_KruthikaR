@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browserVersion" value="10.0"/>
+    <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="day5.SeleniumgridMac">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- day5.SeleniumgridMac -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="day5.SeleniumgridMac">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- day5.SeleniumgridMac -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test1(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="day5.SeleniumgridMac">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- day5.SeleniumgridMac -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="tests" name="Test3(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="day5.SeleniumgridMac">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- day5.SeleniumgridMac -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="3" parallel="tests" name="Test4(failed)">
+    <parameter name="os" value="OS X"/>
+    <parameter name="osVersion" value="Monterey"/>
+    <parameter name="browserVersion" value="16.0"/>
+    <parameter name="browserName" value="Safari"/>
+    <classes>
+      <class name="day5.SeleniumgridMac">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- day5.SeleniumgridMac -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
